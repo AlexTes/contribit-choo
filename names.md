@@ -7,3 +7,11 @@
 * forkhub
 * forkjs
 
+# great words
+* source
+* merge
+* fork
+* git
+* contribute
+* keeper
+* pull request
