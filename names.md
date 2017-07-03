@@ -1,11 +1,8 @@
 # options
 * contribit
-* mergematch
 * forkbook
 * sourcekeeper
-* forker
 * forkhub
-* forkjs
 
 # great words
 * source
