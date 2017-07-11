@@ -15,4 +15,9 @@
 ## Stretch goals
 * Facilitate mentoring.
 * Help projects that need maintainers.
+* Project attractiveness indicators
+  * documentation
+  * response time
+  * no. of active maintainers
+  * PRs merged / closed from first time contributors
 
