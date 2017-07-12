@@ -1,8 +1,8 @@
-const choo = require('choo')
-const html = require('choo/html')
-const app = choo()
-app.route('/', mainView);
-app.mount('body')
+const choo = require('choo');
+const html = require('choo/html');
+
+const app = choo();
+app.mount('body');
 
 function mainView() {
   return html`
@@ -10,4 +10,6 @@ function mainView() {
     <h1>ContriBit</h1>
   </body>
   `;
-};
+}
+
+app.route('/', mainView);

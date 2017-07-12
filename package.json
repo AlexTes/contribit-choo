@@ -13,12 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/AlexTes/contribit.git"
   },
-  "keywords": [
-    "open",
-    "source",
-    "discover",
-    "oss"
-  ],
+  "keywords": ["open", "source", "discover", "oss"],
   "author": "Alexander Tesfamichael <alex.tesfamichael@gmail.com>",
   "license": "MIT",
   "bugs": {
