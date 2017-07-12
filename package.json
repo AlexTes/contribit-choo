@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/",
+    "lint:types": "flow",
     "start": "bankai src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -34,6 +35,7 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-promise": "^3.5.0"
+    "eslint-plugin-promise": "^3.5.0",
+    "flow-bin": "^0.49.1"
   }
 }
