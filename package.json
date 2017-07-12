@@ -4,6 +4,7 @@
   "description": "Find repos and issues to contribute to.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,12 @@
   "dependencies": {
     "bankai": "^8.1.1",
     "choo": "^5.6.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-promise": "^3.5.0"
   }
 }
