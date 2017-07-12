@@ -4,6 +4,7 @@
   "description": "Find repos and issues to contribute to.",
   "main": "index.js",
   "scripts": {
+    "build": "bankai build src/index.js dist/",
     "lint": "eslint src/",
     "lint:types": "flow",
     "start": "bankai src/index.js",
