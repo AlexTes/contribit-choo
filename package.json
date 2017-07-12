@@ -22,5 +22,9 @@
     "url": "https://github.com/AlexTes/contribit/issues"
   },
   "homepage": "https://github.com/AlexTes/contribit#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "bankai": "^8.1.1",
+    "choo": "^5.6.2"
+  }
 }
