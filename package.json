@@ -14,7 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/AlexTes/contribit.git"
   },
-  "keywords": ["open", "source", "discover", "oss"],
+  "keywords": [
+    "open",
+    "source",
+    "discover",
+    "oss"
+  ],
   "author": "Alexander Tesfamichael <alex.tesfamichael@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -23,11 +28,12 @@
   "homepage": "https://github.com/AlexTes/contribit#readme",
   "private": true,
   "dependencies": {
-    "choo": "^5.6.2"
+    "bankai": "^8.1.1",
+    "choo": "^5.6.2",
+    "sheetify": "^6.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "bankai": "^8.1.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.7.0",
