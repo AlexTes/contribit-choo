@@ -34,7 +34,7 @@ declare module 'choo/example/test' {
 }
 
 declare module 'choo/html' {
-  declare module.exports: (string[], ...string[]) => Object;
+  declare module.exports: (string[], ...string[]) => any;
 }
 
 declare module 'choo/test' {
