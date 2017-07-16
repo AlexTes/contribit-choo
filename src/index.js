@@ -1,10 +1,11 @@
 // @flow
-const css = require('sheetify');
 const choo = require('choo');
 const html = require('choo/html');
+const css = require('sheetify');
 const Header = require('./components/header');
 
 const app = choo();
+
 const prefix = css`
   :host {
     display: flex;
@@ -13,7 +14,7 @@ const prefix = css`
   }
 `;
 
-function mainView() {
+function Main() {
   return html`
     <body class=${prefix}>
       ${Header}
@@ -21,5 +22,5 @@ function mainView() {
   `;
 }
 
-app.route('/', mainView);
+app.route('/', Main);
 app.mount('body');
