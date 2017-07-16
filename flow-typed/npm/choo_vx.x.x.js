@@ -15,6 +15,10 @@
 
 declare module 'choo' {
   declare module.exports: () => {
+    toString: toString,
+    use: register,
+    router: router,
+    start: start,
     route: (string, func) => void,
     mount: string => void,
   };
