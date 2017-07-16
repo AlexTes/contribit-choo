@@ -2,32 +2,7 @@
 const html = require('choo/html');
 const css = require('sheetify');
 
-const prefix = css`
-  :host {
-    background: #368C81;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-  }
-
-  :host nav h2 {
-    font-family: Helvetica;
-    text-transform: uppercase;
-  }
-
-  :host img {
-    width: 50px;
-    height: 50px;
-    margin: auto 10px;
-  }
-
-  :host nav {
-    display: flex;
-    flex-grow: .8;
-    justify-content: space-around;
-  }
-`;
+const prefix = css('./header.css');
 
 module.exports = html`
   <header class=${prefix}>
