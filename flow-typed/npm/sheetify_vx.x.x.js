@@ -14,7 +14,12 @@
  */
 
 declare module 'sheetify' {
-  declare module.exports: (string[], ...string[]) => string;
+  declare module.exports: (
+    src: string | string[],
+    filename?: string,
+    options?: Object,
+    done?: (error: Error | null, value: string | null) => void,
+  ) => string;
 }
 
 /**
